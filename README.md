@@ -1,4 +1,4 @@
 # Deployment of Machine Learning Models
-Accompanying repo for the online course Deployment of Machine Learning Models.
+Practicing deploying machine learning models in a production setting. 
 
-For the documentation, visit the [course on Udemy](https://www.udemy.com/deployment-of-machine-learning-models/?couponCode=TIDREPO).
+Used Circle CI for automated tests, Gem fury to host packages and docker container.  
