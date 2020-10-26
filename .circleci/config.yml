@@ -139,14 +139,14 @@ workflows:
   version: 2
   test-all:
     jobs:
-      - test_regression_model
-      - test_ml_api
-      - section_9_differential_tests
-      - train_and_upload_regression_model:
-          requires:
-            - test_regression_model
-            - test_ml_api
-            - section_9_differential_tests
+#      - test_regression_model
+#      - test_ml_api
+#      - section_9_differential_tests
+#      - train_and_upload_regression_model:
+#          requires:
+#            - test_regression_model
+#            - test_ml_api
+#            - section_9_differential_tests
 #          filters:
 #            branches:
 #              only:
@@ -160,7 +160,7 @@ workflows:
       #           - master
       - section_11_build_and_push_to_heroku_docker:
           requires:
-            - train_and_upload_regression_model
+#            - train_and_upload_regression_model
 #          filters:
 #            branches:
 #              only:
